@@ -1,9 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Header from './header/header';
+import { Map2 } from './map/map';
+
 import './index.css';
+import Footer from './footer/footer';
 
 ReactDOM.render(
-  <App />,
+  <div>
+    <Header />
+    <Map2 />
+  <Footer />
+  </div>,
+  
   document.getElementById('root')
-);
+); 
+
+ 
